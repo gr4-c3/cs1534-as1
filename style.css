@@ -39,9 +39,7 @@ body {
 }
 
 /*fixing the navigation bar to be responsive and have a dark background with light text*/
-/* --- Custom Navbar Styles (Fixed Version) --- */
 
-/* 1. Remove the line under "Brixton Guide" and fix the h1 layout */
 .navbar h1 {
     margin: 50px;
     font-size: 30px; 
@@ -49,35 +47,35 @@ body {
 }
 
 .navbar-brand, .navbar h1 a {
-    text-decoration: none !important; /* Forces the underline to vanish */
+    text-decoration: none !important; 
     font-weight: bold;
     letter-spacing: 0.5px;
 }
 
-/* 2. Strip away default HTML bullet points and underlines from the menu links */
+
 .navbar-nav {
-    list-style-type: none !important; /* Removes the dots completely */
+    list-style-type: none !important; 
     padding-left: 20;
     margin-bottom: 20;
 }
 
 .navbar-nav .nav-link {
-    text-decoration: none !important; /* Removes underlines from Home and Visit */
+    text-decoration: none !important; 
     font-weight: 500;
     padding: 8px 25px !important; 
     transition: all 0.3s ease;
     border-radius: 4px;
-    display: inline-block; /* Helps the button background shape sit right */
+    display: inline-block; 
 }
 
-/* 3. Subtle background highlight when hovering over links */
+
 .navbar-nav .nav-link:hover {
     color: #ffffff !important;
     background-color: rgba(255, 255, 255, 0.15); 
 }
 
-/* 4. Style for the current active page link button */
+
 .navbar-nav .nav-link.active {
     color: #ffffff !important;
-    background-color: #780a94 !important; /* Uses your theme's purple accent */
+    background-color: #780a94 !important; 
 }
